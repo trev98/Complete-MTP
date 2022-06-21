@@ -1,37 +1,174 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="app.css">
+    <script src="script.js" async></script>
+    <title>Mix-Or-Match</title>
+</head>
+<body>
+    <h1 class="page-title">Know your Sake! 🍶</h1>
+    <div class="overlay-text visible">
+      Click to start
+    </div>
+    <div id ="game-over-text" class="overlay-text">
+      GAME OVER
+      <span class ="overlay-text-small">Click to restart</span>
+    </div>
+    <div id ="victory-text" class="overlay-text">VICTORY!
+      <span class ="overlay-text-small">Click to restart</span>
+    </div>
+    <div class="game-container">
+        <div class="game-info-container">
+            <div class="game-info">Time
+              <span id="time-remaining">120</span>
+        </div>
+        <div class="game-info">Flips
+          <span id="flips">0</span>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-back card-face">
+      <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+      </div>
+    <div class="card-front card-face">
+      <img class="card-word" src="assets/Honjozo4.png">
+    </div>
+  </div>
 
-You can use the [editor on GitHub](https://github.com/trev98/Complete-MTP/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+  <div class="card">
+    <div class="card-back card-face">
+      <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+      </div>
+    <div class="card-front card-face">
+      <img class="card-word" src="assets/Honjozo4.png">
+    </div>
+  </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <div class="card">
+    <div class="card-back card-face">
+      <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+    </div>
+    <div class="card-front card-face">
+      <img class="card-word" src="assets/genshu.png">
+    </div>
+  </div>
+    
+  <div class="card">
+   <div class="card-back card-face">
+      <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+    </div>
+   <div class="card-front card-face">
+        <img class="card-word" src="assets/genshu.png">
+      </div>
+    </div>
 
-### Markdown
+  <div class="card">
+    <div class="card-back card-face">
+        <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+      </div>
+    <div class="card-front card-face">
+        <img class="card-word" src="assets/amazake.png">
+    </div>
+  </div>
+      
+  <div class="card">
+    <div class="card-back card-face">
+        <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+        </div>
+    <div class="card-front card-face">
+       <img class="card-word" src="assets/amazake.png">
+     </div>
+    </div>
+        
+  <div class="card">
+    <div class="card-back card-face">
+        <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+        </div>
+    <div class="card-front card-face">
+      <img class="card-word" src="assets/jizake.png">
+      </div>
+    </div>
+          
+  <div class="card">
+    <div class="card-back card-face">
+      <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+      </div>
+    <div class="card-front card-face">
+      <img class="card-word" src="assets/jizake.png">
+    </div>
+  </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <div class="card">
+   <div class="card-back card-face">
+      <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+      </div>
+    <div class="card-front card-face">
+      <img class="card-word" src="assets/happoseishu.png">
+    </div>
+  </div>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/trev98/Complete-MTP/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  <div class="card">
+    <div class="card-back card-face">
+      <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+      </div>
+    <div class="card-front card-face">
+      <img class="card-word" src="assets/happoseishu.png">
+    </div>
+  </div>
+            
+  <div class="card">
+    <div class="card-back card-face">
+      <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+      </div>
+    <div class="card-front card-face">
+      <img class="card-word" src="assets/seishu.png">
+    </div>
+  </div>
+              
+  <div class="card">
+    <div class="card-back card-face">
+      <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+      </div>
+    <div class="card-front card-face">
+      <img class="card-word" src="assets/seishu.png">
+    </div>
+  </div>
+                
+  <div class="card">
+    <div class="card-back card-face">
+     <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+      </div>
+    <div class="card-front card-face">
+      <img class="card-word" src="assets/shiboritate.png">
+    </div>
+  </div>
+                  
+  <div class="card">
+    <div class="card-back card-face">
+      <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+      </div>
+    <div class="card-front card-face">
+        <img class="card-word" src="assets/shiboritate.png">
+    </div>
+  </div>
+                    
+  <div class="card">
+    <div class="card-back card-face">
+        <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+        </div>
+  <div class="card-front card-face">
+  <img class="card-word" src="assets/kkuroshu.png">
+    </div>
+  </div>
+                  
+  <div class="card">
+    <div class="card-back card-face">
+      <img class="red-light" src="assets/remi-thorel-49UMO9cbSlI-unsplash.jpg">
+      </div>
+    <div class="card-front card-face">
+      <img class="card-word" src="assets/kkuroshu.png">
+    </div>
+  </div>
+</div>
+</body>
+</html>
